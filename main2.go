@@ -22,7 +22,7 @@ func main() {
   fmt.Println("HOSTNAME:", os.Getenv("HOSTNAME"))
   
   // send env variables to zeus
-  z := &zeus.Zeus{ApiServ: "http://api.ciscozeus.io", Token: os.Getenv("ZEUS_TOKEN")}
+  z := &zeus.Zeus{ApiServ: "http://api.ciscozeus.io", Token: os.Getenv("8dcccc00")}
   logs := zeus.LogList{
   	Name: "syslog",
   	Logs: []zeus.Log{
